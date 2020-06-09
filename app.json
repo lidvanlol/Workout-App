@@ -1,0 +1,36 @@
+{
+	"expo": {
+		"name": "Home Workout",
+		"slug": "home-workout",
+		"platforms": ["android"],
+		"version": "1.0.0",
+
+		"orientation": "portrait",
+		"icon": "./assets/icon.png",
+		"sdkVersion": "37.0.0",
+
+		"androidStatusBar": {
+			"barStyle": "light-content",
+			"backgroundColor": "#151517"
+		},
+		"splash": {
+			"image": "./assets/splash.png",
+			"resizeMode": "contain",
+			"backgroundColor": "#151517"
+		},
+		"updates": {
+			"fallbackToCacheTimeout": 0
+		},
+
+		"assetBundlePatterns": ["assets/video/*", "assets/img/*", "assets/Fonts/*"],
+		"android": {
+			"package": "com.filipjstudios.homeworkout",
+			"versionCode": 1,
+			"adaptiveIcon": {
+				"foregroundImage": "./assets/adapticon.png",
+				"backgroundColor": "#151517"
+			}
+		},
+		"description": ""
+	}
+}
